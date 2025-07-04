@@ -30,17 +30,6 @@ pip install opencv-python pandas joblib deepface numpy
 ### 2. Prepare Your Dataset
 
 Create a folder named 'ImagesAttendance/', with a separate subfolder for each person. Add multiple clear, front-facing '.jpg' or '.jpeg' images in each.
-
-Example:
-ImagesAttendance/
-├── Alice/
-│   ├── img1.jpg
-│   ├── img2.jpg
-└── Bob/
-    ├── img1.jpg
-    └── img2.jpg
-
-
 It should accept input of shape (1, 224, 224, 3) and output a numerical age.
 
 ## Run the Program
